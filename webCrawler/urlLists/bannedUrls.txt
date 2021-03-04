@@ -1,0 +1,34 @@
+presurfer.blogspot.com ?showComment=
+presurfer.blogspot.com/feeds
+presurfer.blogspot.com ?commentPage=
+mjtsai.com/tweetnest
+mjtsai.com /feed
+spritesmods.com ?art=contact
+jesseduffield.com ?replytocom=
+thehftguy.com ?like_comment=
+thehftguy.com ?share=
+sandimetz.com/ ?offset=
+betterexplained.com /print
+betterexplained.com/calculus
+betterexplained.com/~kazad
+blog.miguelgrinberg.com/post /page
+blog.robertelder.org/regular-expression-visualizer/ ?the_regex=
+roughtype.com/ share=
+roughtype.com/ ?cat=
+roughtype.com/ cpage=
+emacswii.org/ ?interface=
+infrequently.org comments.html
+infrequently.org/2004
+nayuki.io/res
+wiki.python.org ?action=
+w3schools.com/cert
+w3schools.com ?filename=
+w3schools.com ?color
+martinfowler.com/photos
+charliereese.ca/devpreneur-podcast
+meiert.com ?footprint=
+meiert.com ?cat=
+utcc.utoronto.ca/~cks/space/blog ?writecomment
+utcc.utoronto.ca/~cks/space/blog ?source
+utcc.utoronto.ca/~cks/space/blog ?atomcomments
+utcc.utoronto.ca/~cks/space/blog ?normal

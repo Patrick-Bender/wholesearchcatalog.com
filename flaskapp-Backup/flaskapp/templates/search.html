@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The Whole Search Catalog</title>
+  <meta name="description" content="The Whole Search Catalog">
+  <meta name="author" content="Patrick Bender">
+
+  <link rel="stylesheet" href="css/styles.css" type = 'text/css'>
+
+</head>
+
+<body>
+  <script>0</script>
+  <header>
+	<h2>The Whole Search Catalog</h2>
+	<form type = 'search'>
+		<input type = 'text'></input>
+		<input type = 'submit'></input>
+	</form>
+	<p>Returned {{results|length}} results for the query "{{ query }}" in {{ searchTime }} seconds</p>
+	</header>
+	<div class='results'>
+		{% for result in results %}
+		<h3><a href = {{ 'http://' + result[0] }}>{{ result[0] }}</a> ({{result[1]}})</h3>
+		<br>
+		{% endfor %}
+	</div>
+<script async defer src="https://sa.wholesearchcatalog.com/latest.js"></script>
+<noscript><img src="https://sa.wholesearchcatalog.com/noscript.gif" alt=""/></noscript>
+</body>
+</html>

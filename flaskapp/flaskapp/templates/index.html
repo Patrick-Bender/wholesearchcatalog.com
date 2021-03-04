@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The Whole Search Catalog</title>
+  <meta name="description" content="The Whole Search Catalog">
+  <meta name="author" content="Patrick Bender">
+
+  <link rel="stylesheet" type = 'text/css' href="css/styles.css">
+
+</head>
+
+<body>
+	<script>0</script>
+        <div class = 'centered'>
+                <h1>The Whole Search Catalog</h1>
+		<h4>A Search Engine for Hackers</h4>
+                <form action = '/search' method = 'post'>
+			{{ form.csrf_token }}
+			{{ form.query(size=37)  }}
+                        <button type = 'submit'>Search</button>
+                </form>
+		<br>
+		<br>
+		<a href = 'https://www.surveymonkey.com/r/HF6T723'>Suggestion/Complaint Box</a>
+        <div>
+<script async defer src="https://sa.wholesearchcatalog.com/latest.js"></script>
+<noscript><img src="https://sa.wholesearchcatalog.com/noscript.gif" alt=""/></noscript>
+</body>
+</html>
+
